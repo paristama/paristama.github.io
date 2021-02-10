@@ -8,7 +8,7 @@
 }
 
 html,body {
-background: #272727;
+background: #2a2a2a;
 color: #fff;
 font-family: 'Roboto Mono', monospace;
 font-size: 10px;
@@ -17,12 +17,16 @@ height: 100%;
 
 h1 {
 	font-size: 4rem;
+	letter-spacing: 1px;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: 100;
 	font-family: 'Roboto Slab', serif;
+	letter-spacing: 1px;
+	color: hsl(0, 0%, 90%);
+	margin-top: .5em;
 }
 
 .container {
@@ -68,19 +72,19 @@ z-index: 10;
 .navbar .navbar-toggler .strip::after {
 	content: "";
 	height: 2px;
-	left: 0px;
+	right: 0px;
 	position: absolute;
 	background: #fff;
 }
 
 .navbar .navbar-toggler .strip::before {
-	top: -7px;
-	width: 70%;
+	top: -9px;
+	width: 120%;
 }
 
 .navbar .navbar-toggler .strip::after {
-	top: 7px;
-	width: 80%;
+	top: 9px;
+	width: 120%;
 }
 
 .nav-wrapper{
@@ -146,7 +150,7 @@ z-index: 10;
 }
 
 #webProgress{
-	margin: 2rem 0;
+	margin: 1.5rem 0;
 	width: 100%;
 }
 
@@ -222,4 +226,8 @@ z-index: 10;
 	justify-content: center;
 }
 
+
+#webProgress{
+	margin: 2rem 0;
+}
 }
